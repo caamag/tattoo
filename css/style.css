@@ -30,6 +30,18 @@ background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;}
 
+#logo
+{position: absolute;
+width: 120px;
+height: auto;
+left: 150px;
+cursor: pointer;
+background-color: white;
+transition: 250ms;}
+
+#logo:hover
+{background-color: rgb(226, 226, 226);}
+
 .nav-PC
 {display: flex;
 align-items: center; 
@@ -82,7 +94,7 @@ height: 88%;}
 {position: absolute;
 width: 50%;
 height: 300px;
-margin-top: 140px;
+margin-top: 180px;
 margin-left: 150px;}
 
 .title h1

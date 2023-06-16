@@ -32,7 +32,7 @@ height: 100vh;
 background-color: rgba(0, 0, 0, 0.9);
 display: block;
 right: -420px;
-transition: all ease-in-out 400ms;
+transition: all ease-in-out 500ms;
 overflow: hidden;
 z-index: 2;}
 
@@ -48,7 +48,10 @@ text-decoration: none;
 color: white;
 font-size: 3rem;}
 
-
+#logo
+{width: 80px;
+left: 10px;
+top: 10px;}
 
 
 
