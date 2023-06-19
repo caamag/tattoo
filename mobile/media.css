@@ -16,21 +16,25 @@ overflow: hidden;}
 
 
 
-#menu
+.menu, .menu-fechar
 {display: block;
 position: absolute;
 width: 40px;
 height: 40px;
 right: 0px;
 margin: 25px;
+transition: 500ms;
 z-index: 3;}
 
+.menu-fechar
+{display: none;}
+
 .nav-mobile
-{position: absolute;
+{display: block;
+position: absolute;
 width: 100%;
 height: 100vh;
 background-color: rgba(0, 0, 0, 0.9);
-display: block;
 right: -420px;
 transition: all ease-in-out 500ms;
 overflow: hidden;

@@ -33,7 +33,7 @@ height: 100%;}
 input[type = "checkbox"]:checked ~ .nav-mobile
 {right: 0px;}
 
-#menu
+.menu, .menu-fechar
 {display: none;}
 
 #menu-input
